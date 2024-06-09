@@ -9,4 +9,3 @@ console.log(typeof value);
 //"33"=>33
 //"3abc"=>NaN
 //true =>1 and false=>0
-
