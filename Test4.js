@@ -37,3 +37,10 @@ console.log(NewString1);
 console.log(NewString1.trim());
 
 const url="https://Dev.com/DevChavda"
+
+console.log(url.replace('C','c'));
+
+console.log(url.includes("Dev"));
+console.log(url.includes("Ved"));
+
+console.log(Game.split('-'));
