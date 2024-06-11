@@ -1,5 +1,3 @@
-const { logEvent } = require("firebase/analytics")
-
 const score=400
 
 const balance=new Number(100)
@@ -26,8 +24,6 @@ const Hun=1000000
 // console.log(Math.min(55,57,98,70));
 
 console.log(Math.random()*10+1);
-
-
 
 const Max=20
 const Min=10
