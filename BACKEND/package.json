@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A app to deploy",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },

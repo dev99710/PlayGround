@@ -1,17 +1,25 @@
-const express=require('express')
+import express from 'express'
 const app=express()
-const port=3001
+const port=3005
 
-app.get('/',(req,res)=>{
-    res.send("Hello Moron");
-})
+// app.get('/',(req,res)=>{
+//     res.send("Hello Moron");
+// })
 
-app.get('/twitter',(req,res)=>{
-    res.send('devcom')
-})
-
-app.get('/login',(req,res)=>{
-    res.send('<h1>LOGIN IN INSTAGRAM</h1>')
+app.get('/api/jokes',(req,res)=>{
+    const jokes=[
+        {
+            id:1,
+            title:"A joke",
+            content:"This is a Joke"
+        },
+        {
+            id:2,
+            title:"B joke",
+            content:"This Is second Joke"
+        }
+    ];  
+    res.json(jokes);
 })
 
 app.listen(port,()=>{
